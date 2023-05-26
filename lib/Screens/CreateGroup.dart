@@ -37,10 +37,10 @@ class _CreateGroupState extends State<CreateGroup> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xFF075E54),
-        title: Column(
+        title: const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.start,
-          children: const [
+          children: [
             Text('New group',
               style: TextStyle(
                   fontWeight: FontWeight.bold,

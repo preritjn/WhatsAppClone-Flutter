@@ -11,7 +11,7 @@ Future<void> main() async {
     theme: ThemeData(
         fontFamily: 'Poppins',
         primaryColor: const Color(0xFF075E54),
-        accentColor: const Color(0xFF128C7E)
+        hintColor: const Color(0xFF128C7E)
     ),
     home: const LoginScreen(),
   ));
